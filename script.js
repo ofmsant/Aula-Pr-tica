@@ -4,8 +4,12 @@ const input = document.querySelector('#todo-input');
 // Listening to click event from "Add" button.
 document.querySelector('#submit').addEventListener('click', () => {
   // value of the input field
-  const inputData = input.value;
-  input.value = "";
+  if(input.value==''){
+    alert("invalid input")
+  }else{
+    const inputData = input.value;
+    input.value = ""
+ 
 
   // creating todo item element
   const todo_el = document.createElement('div');
@@ -52,7 +56,6 @@ document.querySelector('#submit').addEventListener('click', () => {
     todo_input_el.classList.add('done')
     todo_el.removeChild(todo_actions_el);
   })
-
   // edit functionality
   todo_edit_el.addEventListener('click', (e) => {
     if (todo_edit_el.classList.contains("edit")) {
@@ -76,4 +79,5 @@ document.querySelector('#submit').addEventListener('click', () => {
     console.log(todo_el);
     document.querySelector('.todo-lists').removeChild(todo_el);
   });
+}
 })
