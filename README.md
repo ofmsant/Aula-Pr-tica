@@ -26,4 +26,4 @@ Um projeto ideal para praticar manipulação do DOM, eventos e lógica de progra
 ## 🚀 Como executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ofmsant/ofmsant.git
+   git clone `https://github.com/CodeStudio-Content/To-Do-List-JavaScript.git`
