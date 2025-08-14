@@ -27,4 +27,3 @@ Um projeto ideal para praticar manipulação do DOM, eventos e lógica de progra
 1. Clone este repositório:
    ```bash
    git clone https://github.com/ofmsant/ofmsant.git
-
